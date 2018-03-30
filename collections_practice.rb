@@ -9,4 +9,3 @@ def begins_with_r (arr)
   end
 end
 end
-
