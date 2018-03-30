@@ -27,6 +27,6 @@ end
 
 def remove_non_strings (arr)
   arr.select do |string|
-    string.delete == "wa"
+    string.delete("wa")
   end
 end
