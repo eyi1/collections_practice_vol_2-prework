@@ -17,3 +17,10 @@ end
 #   end
 # end
 # end
+
+
+def contain_a (arr)
+  arr.select do |string|
+    string.include?("a")
+  end
+end
