@@ -5,7 +5,7 @@
 #     return true
 #   else
 #     return false
-require pry
+
 def begins_with_r (arr)
   arr.all? do |string|
     string[0] == "r"
@@ -27,7 +27,7 @@ end
 
 def remove_non_strings (arr)
   arr.select do |string|
-    binding.pry
+  
     string[0,1].delete("wa")
   end
 end
