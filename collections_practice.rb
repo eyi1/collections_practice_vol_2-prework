@@ -7,3 +7,4 @@ def begins_with_r (arr)
     false
   end
 end
+end
