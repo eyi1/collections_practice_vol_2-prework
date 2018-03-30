@@ -1,6 +1,6 @@
 # your code goes here
 def begins_with_r (arr)
-  arr.each_with_index do |value, index|
+  arr.all? do |value|
   if value[0] == "r"
     return true
   else
