@@ -24,3 +24,9 @@ def contain_a (arr)
     string.include?("a")
   end
 end
+
+def remove_non_strings (arr)
+  arr.select do |string|
+    string.delete == "wa"
+  end
+end
